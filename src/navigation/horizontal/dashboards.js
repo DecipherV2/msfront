@@ -18,13 +18,8 @@ export default [
         title: 'eCommerce',
         icon: <ShoppingCart />,
         navLink: '/dashboard/ecommerce'
-      },
-      {
-        id: 'eCommerceDashaddproduct',
-        title: 'Add-product',
-        icon: <ShoppingCart />,
-        navLink: '/dashboard/addproduct'
       }
+      
     ]
   }
 ]

@@ -19,14 +19,8 @@ export default [
         title: 'eCommerce',
         icon: <Circle size={12} />
         
-      },
-      {
-        id: 'eCommerceaddproduct',
-        title: 'Add-Product',
-        icon: <Circle size={12} />,
-        navLink: '/dashboard/addproduct'
-        
       }
+      
 
     ]
   }

@@ -36,8 +36,8 @@ function Shopping() {
   const displayProduits = filteredProduits
     .slice(pagesVisited, pagesVisited + productsPerPage)
     .map(produit => (
-      <div key={produit.id} className="col">
-        <Card className="ecommerce-card" style={{ border: '1px solid #e1e5eb', borderRadius: '0.25rem', marginBottom: '20px', transition: 'all 0.3s ease-in-out' }}>
+      <div key={produit.id} className="col-md-4">
+        <Card className="ecommerce-card h-100" style={{ border: '1px solid #e1e5eb', borderRadius: '0.25rem', marginBottom: '20px', transition: 'all 0.3s ease-in-out' }}>
           <div className="item-img text-center mx-auto" style={{ padding: '20px' }}>
             <Link to={`/apps/ecommerce/product-detail/${produit.image}`}>
               <img className="img-fluid card-img-top" src={produit.image} alt={produit.designation} />
